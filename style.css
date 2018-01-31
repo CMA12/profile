@@ -1,0 +1,125 @@
+
+body {
+  background-color: #ebebeb;
+  margin:0.1px;
+  padding:0.1px;
+}
+
+h1 { 
+  font-family: 'PT Sans', sans-serif;
+  color:#12355B;
+  letter-spacing: 0.75px;
+}
+
+h2 {
+  font-family: Helvetica;
+  color:#132A13;
+  letter-spacing: 0.75px;
+}
+
+p {
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: 0.75px;
+  font-size:15px;
+}
+
+a {
+  text-decoration: none;
+  color:#8A7E72;
+  transition: color 250ms ease;
+}
+
+a:hover {
+  color: #5A2328 ;
+}
+
+div {
+  display: block;
+}
+
+#profilepicture{
+  height:200px;
+  width:200px;
+  border-radius: 50%;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  margin-bottom:30px;
+  border-radius: 5px;
+  text-align: center;
+  width: 500px;
+  position: relative;
+  left:425px;
+  box-shadow: lightgrey 4px 4px 10px;
+}
+
+.container { 
+    width: 500px;
+    margin: 30px auto;
+    padding-top:100px;
+}
+
+.movie-pics{
+  height:400px;
+  width:230px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.header{
+    background: grey;
+    height:85px;
+    padding: 2px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.fa{
+  font-size:35px;
+  padding:10px;
+}
+
+.menu{
+  color:#0F1A20;
+  position:relative;
+  left:1000px;
+  top: -25px;
+  font-size: 20px;
+}
+
+#pic{
+top:-2px;
+}
+
+.avatar{
+  height:60px;
+  width: 60px;
+  border-radius:50%;
+}
+
+.logout{
+  margin-top:1500px ;
+  text-align: center;
+}
+
+.logout p{
+  color:#ebebeb;
+}
+
+.header .menu .fa {
+  font-size:30px;
+}
